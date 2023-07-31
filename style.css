@@ -1,0 +1,153 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+    font-size: 16px;
+    text-align: center;
+    background-color: hsl(204, 43%, 93%);
+    font-family:'Karla';  
+    font-size: 16px;  
+  }
+  
+  
+    
+  .container{
+    width: 620px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+  .box1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: hsl(204, 43%, 93%);
+
+  }
+  .subbox{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    padding: 20px;
+    text-align: left;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+  }
+
+  .box2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+  .subbox1{
+    width: 50%;
+    height: 100%;
+    background-color:#2ab2af;
+    padding: 20px;
+    -webkit-border-bottom-left-radius: 10px;
+
+  }
+  .subbox2{
+    width: 50%;
+    height: 100%;
+    background-color:#1ac9c5;
+    padding: 20px;
+    -webkit-border-bottom-right-radius:10px;
+
+  }
+
+
+  button{
+
+    background-color: #c0df34;
+    color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    font-family: karla;      
+    font-weight: bolder;
+    margin-top: 30px;
+    border: 0;
+    box-shadow: 4px 7px 22px 7px rgba(0,0,0,0.55);
+-webkit-box-shadow: 4px 7px 22px 7px rgba(0,0,0,0.55);
+-moz-box-shadow: 4px 7px 22px 7px rgba(0,0,0,0.55);
+  }
+
+  ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    
+  }
+  li{
+    font-size:small;
+    color:#e5eff5;
+    margin-left: 0;
+  }
+
+
+
+  .subbox2 p{
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 0;
+    font-weight: bolder;
+
+  }
+
+  .subbox1 p{
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: bolder;
+
+
+  }
+
+  .subbox h2{
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+ .box1 h2{
+    font-weight: bolder;
+    color:#2ab2af;
+  }
+  .box1 h4{
+    color: #c0df34;
+  }
+  .l3{
+    color:#c2c2c2;
+  }
+
+
+  button:hover{
+
+
+    background-color: #c6d77a;
+    cursor: pointer;
+  }
+
+
+  footer{
+
+    position: absolute;
+    top: 580px;
+    left: 10;
+    /* width: 200px;
+    height: 100px; */
+  }
